@@ -1,0 +1,22 @@
+{
+    "name": "solwin/pressrelease",
+    "description": "Press Release extension for Magento 2 helps to keep your customers updated with the latest press release.",
+    "type": "magento2-module",
+    "version": "1.1.0",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Pressrelease\\": ""
+        }
+    }
+}
